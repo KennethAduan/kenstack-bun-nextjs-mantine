@@ -12,7 +12,7 @@ export default function Home() {
   const { setColorScheme, clearColorScheme } = useMantineColorScheme();
 
   return (
-    <Center h={500}>
+    <Center h={500} mt={120}>
       <div className={classes.wrapper}>
         <Container size={700} className={classes.inner}>
           <h1 className={classes.title}>
@@ -33,7 +33,12 @@ export default function Home() {
             Mantine includes more than 100 customizable components and hooks to
             cover you in any situation
           </Text>
-
+          <Text className={classes.description} color="dimmed">
+            Template for your Next.js project with Mantine.
+          </Text>
+          <Text className={classes.description} color="dimmed">
+            Template created by Kenneth B. Aduan
+          </Text>
           <Group className={classes.controls}>
             <Button
               size="xl"
