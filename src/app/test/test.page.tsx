@@ -1,6 +1,6 @@
 import Link from "next/link";
 
-export default function Home() {
+export default function TestPageRedirect() {
   return (
     <div>
       <h1>Home</h1>
