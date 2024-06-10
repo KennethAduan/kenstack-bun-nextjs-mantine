@@ -11,7 +11,8 @@
     "db:migrate": "prisma migrate deploy",
     "db:push": "prisma db push",
     "db:studio": "prisma studio",
-    "postinstall": "prisma generate"
+    "db:format": "prisma format",
+    "postinstall": "prisma generate && prisma migrate deploy"
   },
   "dependencies": {
     "@mantine/core": "^7.9.2",
