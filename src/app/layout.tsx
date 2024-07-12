@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
-import "@mantine/core/styles.css";
+
 import NextTopLoader from "nextjs-toploader";
 import { ColorSchemeScript } from "@mantine/core";
 import AppProviders from "@/services/providers";
