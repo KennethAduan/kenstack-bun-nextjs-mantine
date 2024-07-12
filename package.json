@@ -11,31 +11,33 @@
     "db:migrate": "prisma migrate deploy",
     "db:push": "prisma db push",
     "db:studio": "prisma studio",
-    "db:format": "prisma format",
-    "postinstall": "prisma generate && prisma migrate deploy"
+    "db:format": "prisma format"
   },
   "dependencies": {
-    "@mantine/core": "^7.9.2",
-    "@mantine/hooks": "^7.9.2",
-    "@prisma/client": "^5.14.0",
-    "@tabler/icons-react": "^3.4.0",
-    "next": "14.2.3",
+    "@mantine/core": "^7.11.1",
+    "@mantine/hooks": "^7.11.1",
+    "@next/eslint-plugin-next": "^14.2.5",
+    "@prisma/client": "^5.16.2",
+    "@tabler/icons-react": "^3.10.0",
+    "eslint-plugin-react": "^7.34.3",
+    "next": "14.2.5",
     "nextjs-toploader": "^1.6.12",
-    "postcss": "^8.4.38",
+    "postcss": "^8.4.39",
     "postcss-preset-mantine": "^1.15.0",
     "postcss-simple-vars": "^7.0.1",
-    "react": "^18",
-    "react-dom": "^18"
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
   },
   "devDependencies": {
     "@types/bun": "latest",
-    "@types/node": "^20",
-    "@types/react": "^18",
-    "@types/react-dom": "^18",
-    "eslint": "^8",
-    "eslint-config-next": "14.2.3",
-    "typescript": "^5",
-    "prisma": "^5.14.0"
+    "@types/node": "^20.14.10",
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "eslint": "8.57.0",
+    "eslint-config-next": "14.2.5",
+    "eslint-plugin-react-hooks": "^4.6.2",
+    "prisma": "^5.16.2",
+    "typescript": "^5.5.3"
   },
   "module": "index.ts",
   "type": "module"
